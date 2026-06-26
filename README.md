@@ -49,6 +49,8 @@ See `knowledge/docs-retrieval.md` for full setup.
 ## Repo Structure
 
 ```
+├── .codex-plugin/
+│   └── plugin.json            # Codex Plugin Manifest
 ├── AGENTS.md                  # Entry point for AI agents
 ├── README.md                  # This file
 ├── spec.md                    # Product spec (single source of truth)
@@ -68,6 +70,10 @@ See `knowledge/docs-retrieval.md` for full setup.
     └── katalyst/
         └── SKILL.md           # Full operating guide
 ```
+
+## Plugin Integration
+
+This repository is built as a Codex Plugin. You can install it directly in Codex by pointing your marketplace to this directory or publishing it to the cloud.
 
 ## Owner
 
