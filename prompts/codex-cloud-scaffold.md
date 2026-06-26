@@ -1,8 +1,12 @@
 # AppworkZ Katalyst - App Scaffolding Prompt (Codex Cloud)
 
-You are an AI coding agent operating in a new repository with the AppworkZ Katalyst Builder OS plugin installed.
+You are an AI coding agent operating in a new repository.
 
-I have provided a single markdown file containing the initial seed idea for a new app.
+First, you must install the AppworkZ Katalyst Builder OS plugin from its repository.
+Run this command in the terminal to add the marketplace:
+`codex plugin marketplace add https://github.com/masjames/appworkz-katalyst-skill.git`
+
+Once the plugin is installed and active, I will provide a single markdown file containing the initial seed idea for a new app.
 
 Your task is to scaffold the app and repo structure by executing the first phases of the Katalyst loop:
 
